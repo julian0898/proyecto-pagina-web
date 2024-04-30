@@ -8,8 +8,7 @@ body{
 }
 #logo{
    justify-content: center;
-   width: 380px ;
-   
+   width: 380px; 
    
 }
 #MARACUYA{
@@ -41,8 +40,8 @@ nav{
    background: rgb(12, 12, 12);
    color: rgb(245, 237, 237);
    padding: 10px;
-   border: 5px solid rgb(243, 232, 232)12, 105, 105);
-   display: none;
+   border: 5px solid rgb(243, 232, 232)12, 105, 105;
+   display:none;
 }
 @media(max-width: 600px){
 nav{
@@ -108,13 +107,13 @@ margin-bottom: 20px;
 .botonprecio:hover{
    background: rgb(166, 182, 74);
 }
-@media(max-width 1070px){
+@media(max-width: 1070px){
 .columna{
    width: 45%;
    margin-bottom: 10px;
 }
 }
-@media(max-width 600px){
+@media(max-width:600px){
    .columna{
       width: 100%;
       margin-bottom: 10px;
