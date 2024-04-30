@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>barra de navegacion</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jersey+25&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="barrra.css">
+</head>
+<body>   
+      
+
+<nav>
+  
+ <button class="boton" onclick="accion()">MENU</button>     
+<a href="#" class="navegacion desaparece">INICIO</a>
+<a href="#" class="navegacion desaparece">PRODUCTOS</a>
+<a href="#" class="navegacion desaparece">NOSOTROS</a>
+<a href="#" class="navegacion desaparece">COMUNICACION</a>
+
+ </nav>
+ <header>
+    <div class="logo">
+    <img src="WhatsApp Image 2024-04-29 at 3.53.03 PM.jpeg" id="logo">
+    </div>
+<h2 class="text">PRODUCTOS INNOVADORES Y NUTRITIVOS</h2>
+<p class="inf">YOGURT PASION ofrece a los clientes un producto nutritivo a base de una gran variedad de frutas con el objetivo de no solo vender un producto sino apoyar en una alimentacion saludable</p>
+
+ </header>
+
+
+<section class="container flex ">
+    <div class="columna">
+        <h2>YOGURT DE MARACUYA</h2>
+        <img src="descarga.jpg" id="MARACUYA">
+        <p>YOGURT DE MARACUYA</p>
+        <hr>
+        <p>INGREDIENTES:</p>
+        
+            <ul>
+                <li>LECHE ENTERA</li>
+                <li>MARACUYA</li>
+                <li>TROZOS DE MARACUYA</li>
+            </ul>
+            <p>PRECIO</p>
+            <P class="PRECIO">$13.000</P>
+       
+        <hr>
+        <a href="#" class="botonprecio">COMPRAR</a>
+    </div>
+
+    <div class="columna">
+        <h2>YOGURT DE FRESA</h2>
+        <img src="descarga.jpg" id="MARACUYA">
+        <p>YOGURT DE MARACUYA</p>
+        <hr>
+        <p>INGREDIENTES:</p>
+        
+            <ul>
+                <li>LECHE ENTERA</li>
+                <li>MARACUYA</li>
+                <li>TROZOS DE MARACUYA</li>
+            </ul>
+            <p>PRECIO</p>
+            <P class="PRECIO">$13.000</P>
+       
+        <hr>
+        <a href="#" class="botonprecio">COMPRAR</a>
+    </div>
+
+    <div class="columna">
+        <h2>YOGURT DE MANZANA</h2>
+        <img src="descarga.jpg" id="MARACUYA">
+        <p>YOGURT DE MARACUYA</p>
+        <hr>
+        <p>INGREDIENTES:</p>
+        
+            <ul>
+                <li>LECHE ENTERA</li>
+                <li>MARACUYA</li>
+                <li>TROZOS DE MARACUYA</li>
+            </ul>
+            <p>PRECIO</p>
+            <P class="PRECIO">$13.000</P>
+       
+        <hr>
+        <a href="#" class="botonprecio">COMPRAR</a>
+    </div>
+</section>
+
+
+
+<script>
+    function accion(){
+        var ancla=document.getElementsByClassName('navegacion');
+    for(var i=0; i < ancla.length ; i++){
+        ancla[i].classList.toggle('desaparece');
+    }
+    }
+</script>
+
+</body>
+</html>

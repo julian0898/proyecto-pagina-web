@@ -1,0 +1,124 @@
+
+body{
+   background: black;
+}
+
+.logo{
+   text-align: center;
+}
+#logo{
+   justify-content: center;
+   width: 380px ;
+   
+   
+}
+#MARACUYA{
+margin: -20px 0px;
+flex: auto;
+
+}
+.navegacion{
+background:black(143, 121, 61);
+color: white;
+padding: 10px 30px;
+display: inline-block;
+text-decoration: none;
+
+}
+.navegacion:hover{
+background:rgb(179, 179, 32, 0.849);
+}
+
+nav{
+   
+   background: black;
+   padding: 10px;
+   display: flex;
+   justify-content: flex-end;
+   border: 1px solid white;
+}
+.boton{
+   background: rgb(12, 12, 12);
+   color: rgb(245, 237, 237);
+   padding: 10px;
+   border: 5px solid rgb(243, 232, 232)12, 105, 105);
+   display: none;
+}
+@media(max-width: 600px){
+nav{
+   flex-direction: column;
+}
+.navegacion{
+ margin: 10px;
+}
+.boton{
+display: inline-block;
+
+}
+.desaparece{
+   display: none;
+}
+
+}
+.container{
+   margin: 0 auto;
+   width: 60%;
+}
+h2{
+   text-align: center;
+font-family: "Jersey 25";
+
+}
+.flex{
+ display: flex;
+ flex-wrap: wrap;
+}
+.text{
+   text-align: center;
+   color: white;
+}
+.inf{
+   color: white;
+}
+
+.columna{
+   background: whitesmoke;
+   color: black;
+   border: 1px solid black;
+   margin: auto auto;
+   padding: 5px;
+   border-radius: 8px;
+   box-shadow: -10px 10px 10px black;
+  margin-bottom: 10px;
+   box-sizing: border-box;
+}
+.PRECIO{
+font-size: 20px;
+color: blueviolet;
+}
+.botonprecio{
+background-color: black;
+display: block;
+padding: 5px;
+color: white;
+text-decoration: none;
+border-radius: 2px;
+margin-bottom: 20px;
+}
+.botonprecio:hover{
+   background: rgb(166, 182, 74);
+}
+@media(max-width 1070px){
+.columna{
+   width: 45%;
+   margin-bottom: 10px;
+}
+}
+@media(max-width 600px){
+   .columna{
+      width: 100%;
+      margin-bottom: 10px;
+   
+   }
+   
+   }
