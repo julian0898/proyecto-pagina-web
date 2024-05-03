@@ -1,8 +1,4 @@
 
-body{
-   background: black;
-}
-
 .logo{
    text-align: center;
 }
@@ -57,6 +53,20 @@ display: inline-block;
 .desaparece{
    display: none;
 }
+.slider-text{
+   color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 }
 .container{
