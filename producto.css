@@ -1,0 +1,66 @@
+.tit{
+    text-align: center;
+    width: 50px;
+}
+.container{
+    margin: 0 auto;
+    width: 60%;
+ }
+ .yogurt{
+    text-align: center;
+ font-family: "Jersey 25";
+ 
+ }
+ .flex{
+  display: flex;
+  flex-wrap: wrap;
+ }
+ .text{
+    text-align: center;
+    color: white;
+ }
+ .inf{
+    color: white;
+ }
+ 
+ .columna{
+    background: whitesmoke;
+    color: black;
+    border: 1px solid black;
+    margin: auto auto;
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: -10px 10px 10px black;
+   margin-bottom: 10px;
+    box-sizing: border-box;
+ }
+ .PRECIO{
+ font-size: 20px;
+ color: blueviolet;
+ }
+ .botonprecio{
+ background-color: black;
+ display: block;
+ padding: 5px;
+ color: white;
+ text-decoration: none;
+ border-radius: 2px;
+ margin-bottom: 20px;
+ }
+ .botonprecio:hover{
+    background: rgb(166, 182, 74);
+ }
+ @media(max-width: 1070px){
+ .columna{
+    width: 45%;
+    margin-bottom: 10px;
+ }
+ }
+ @media(max-width:600px){
+    .columna{
+       width: 100%;
+       margin-bottom: 10px;
+    
+    }
+    
+    }
