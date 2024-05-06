@@ -1,7 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
 
-
 *{
    margin: 0;
    padding: 0;
@@ -41,7 +40,7 @@ font-family: "Poppins", sans-serif;
 }
 
 .swiper-pagination-bullet{
-   background-color: rgb(110, 94, 94);
+   background-color: rgb(59, 52, 52);
    opacity: 1;
 }
 .swiper-pagination-bullet-active{
@@ -183,13 +182,13 @@ font-family: "Poppins", sans-serif;
 
 /*modificando taps*/
 .products{
-   background-color: black;
+   background-color: rgb(43, 41, 41);
 }
 
 .tabs{
    display: flex;
    flex-wrap: wrap;
-   padding: 100px 0;
+   padding: 100px 0px;
 }
 
 .tabs label{
@@ -209,7 +208,7 @@ font-family: "Poppins", sans-serif;
    flex-grow: 1;
    width: 100%;
    display: none;
-   padding-top: none;
+   padding-top: 25px;
 }
 
 .tabs input[type='radio']{
@@ -217,9 +216,12 @@ display: none;
 
 }
 .tabs input[type='radio']:checked + label{
-    border-bottom: 3px solid yellow;
+    border-bottom: 2px solid yellow;
     color: white;
     
+}
+.tabs input[type='radio']:checked + label + .tab{
+   display: block;
 }
 
 .product{
@@ -390,6 +392,7 @@ display: none;
    .menu-2{
       display: none;
    }
+   
    .logo-1{
       width: 100px;
    }
