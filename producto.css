@@ -1,13 +1,34 @@
 body{
-   background-color: rgb(15, 17, 17);
- }
-
-
-
-.tit{
-    text-align: center;
-    width: 50px;
+   background-color: black;
 }
+#particles-js{
+   background-color: red;
+}
+.titu{  
+  text-align: center;
+  color: white;
+  font-family:"poetsen one"
+}
+.ima{
+   width: 30%;
+   margin: 30px;
+}
+
+.slog{
+   color: white;
+   text-align: center;
+   margin: 0 0 50px;
+   font-family:"poetsen one";
+}
+
+.presentation-product{
+   text-align: center;
+   color: aliceblue;
+  padding: 5px;
+   font-family:"poetsen one";
+   margin: 0 20px 0 20px;
+}
+
 .container{
     margin: 0 auto;
     width: 60%;
