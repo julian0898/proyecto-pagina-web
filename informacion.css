@@ -1,3 +1,4 @@
+
 .prueba2{
     width: 140px;
     border: chocolate;
@@ -7,10 +8,13 @@
 
 .nosotros{
     width: 100px;
-    text-align: center;
+    text-align:center;
     font-family: fantasy;
-    margin: 50px;
-    
+    justify-content: center;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .target{
@@ -32,7 +36,7 @@
     width: 200px;
     height: 320px;
     text-align: justify;
-    background-color: darksalmon;
+    background-color: rgb(196, 193, 193);
     border-radius: 10px;
     padding: 20px;
     transition: 0.5s;
@@ -57,3 +61,21 @@
     left: unset;
     right: 50px;
 }
+.titles {
+    margin: 10px;
+    text-align: center;
+    font-family: fantasy;
+    
+}
+
+.item img{
+    width: 160px;
+    
+}
+.item h3{
+    font-family: fantasy;
+    margin: 30px;
+    text-align: center;
+}
+
+

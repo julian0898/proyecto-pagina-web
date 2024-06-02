@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>compra ya</title>
+    <link rel="icon" href="WhatsApp Image 2024-04-29 at 3.53.03 PM.jpeg">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="page-nav">
+    <h1>YOGURT PASION</h1>
+    
+    <button id="checkout" class="button-checkout" onclick="showOrder()">carrito</button>
+
+</div>
+
+<div id="page-content" class="page-content">
+
+    <div id="product-cards" class="product-cards"></div>
+    
+    <div id="order" class="order">
+        <h1>ordenes</h1>
+    <h2 id="order-total">total $120003</h2>
+        <table id="order-table" class="order-table">
+            <tr>
+              <th>Cantidad</th>
+              <th>detalle</th>
+              <th>subtotal</th>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>yogurt</td>
+              <td>13000</td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>yogur</td>
+              <td>12000</td>
+            </tr>
+          </table>
+      <div id="order-actions" class="order-actions">
+        <p onclick="displayProducts()"><< volver</p>
+        <p onclick="pay()">confirmar >></p>
+      </div>
+    </div>
+
+</div>
+<script src="scripts.js"></script>
+</body>
+</html>

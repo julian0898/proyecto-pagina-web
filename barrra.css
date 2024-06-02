@@ -10,7 +10,7 @@
 }
 
 body{
-background-color: black;
+background-color: rgb(109, 129, 51);
 font-family: "Poppins", sans-serif;
 
 }
@@ -21,6 +21,9 @@ font-family: "Poppins", sans-serif;
     margin: 0 auto;
    
 
+}
+.foto{
+   width: 10px;
 }
 
 .swiper-button-prev::after{
@@ -40,7 +43,7 @@ font-family: "Poppins", sans-serif;
 }
 
 .swiper-pagination-bullet{
-   background-color: rgb(59, 52, 52);
+   background-color: rgb(209, 159, 19);
    opacity: 1;
 }
 .swiper-pagination-bullet-active{
@@ -86,7 +89,7 @@ font-family: "Poppins", sans-serif;
    margin: 0 10px;
    height: 40px;
    width: 40px;
-   border: 1px solid yellow;
+   border: 1px solid rgb(239, 246, 27);
    border-radius: 50%;
 }
 
@@ -228,10 +231,10 @@ display: none;
    display: flex;
    align-items: center;
    padding: 25px;
-   margin: 0 10px;
+   margin:  5px;
 }
 .product-img{
-   width: 50%;
+   width: 40%;
    text-align: left;
 }
 .product-img h4{
@@ -242,14 +245,16 @@ display: none;
    font-size: 14px;
    text-transform: uppercase;
    font-weight: 800;
-   border: 2px solid yellow;
+   border: 6px solid rgb(214, 217, 12);
    border-radius: 10px;
    margin-bottom: 50px;
 }
 
 .product-img img{
-   width: 150px;
-   height: 120px;
+   align-items: center;
+   width: 200px;
+   height: 200px;
+   
 }
 
 .product-txt{
@@ -274,7 +279,7 @@ display: none;
 }
 
 .product-txt span{
-   color: white;
+   color: rgb(255, 255, 255);
    font-size: 18px;
    font-weight: 800;
 }
