@@ -10,7 +10,7 @@
 }
 
 body{
-background-color: rgb(109, 129, 51);
+background-color: #1B2727;
 font-family: "Poppins", sans-serif;
 
 }
@@ -34,20 +34,20 @@ font-family: "Poppins", sans-serif;
 }
 .swiper-button-prev{
 
-   color: yellow;
+   color: #a5e65a;
 }
 
 .swiper-button-next{
 
-   color: yellow ;
+   color: #a5e65a ;
 }
 
 .swiper-pagination-bullet{
-   background-color: rgb(209, 159, 19);
+   background-color: #a5e65a;
    opacity: 1;
 }
 .swiper-pagination-bullet-active{
-   background-color: yellow;
+   background-color: #a5e65a;
 }
 
 .menu{
@@ -89,12 +89,12 @@ font-family: "Poppins", sans-serif;
    margin: 0 10px;
    height: 40px;
    width: 40px;
-   border: 1px solid rgb(239, 246, 27);
+   border: 1px solid #a5e65a;
    border-radius: 50%;
 }
 
 .social:hover{
-   background-color: yellow;
+   background-color: #a5e65a;
 }
 
 .social img{
@@ -113,7 +113,7 @@ font-family: "Poppins", sans-serif;
 }
 
 .menu .navbar ul li a:hover{
-   color: yellow;
+   color: #a5e65a;
 }
 
 #menu{
@@ -161,7 +161,7 @@ font-family: "Poppins", sans-serif;
 .btn-1{
    display: inline-block;
    padding: 15px 35px;
-   border: 3px solid yellow;
+   border: 3px solid #a5e65a;
    color: azure;
    font-weight: 800;
    letter-spacing: 1px;
@@ -170,7 +170,7 @@ font-family: "Poppins", sans-serif;
    border-radius: 50px;
 }
 .btn-1:hover{
-   background-color: rgb(110, 110, 30);
+   background-color: #a5e65a;
 }
 
 .slider-img{
@@ -185,7 +185,7 @@ font-family: "Poppins", sans-serif;
 
 /*modificando taps*/
 .products{
-   background-color: rgb(43, 41, 41);
+   background-color: #191f20;
 }
 
 .tabs{
@@ -201,7 +201,7 @@ font-family: "Poppins", sans-serif;
    padding: 20px 0;
    text-align: center;
    cursor: pointer;
-   color: gray;
+   color: #a5e65a;
    font-weight: 700;
    transition: background ease 0.2s;
 }
@@ -219,7 +219,7 @@ display: none;
 
 }
 .tabs input[type='radio']:checked + label{
-    border-bottom: 2px solid yellow;
+    border-bottom: 2px solid #a5e65a;
     color: white;
     
 }
@@ -245,7 +245,7 @@ display: none;
    font-size: 14px;
    text-transform: uppercase;
    font-weight: 800;
-   border: 6px solid rgb(214, 217, 12);
+   border: 6px solid #a5e65a;
    border-radius: 10px;
    margin-bottom: 50px;
 }
@@ -272,7 +272,7 @@ display: none;
 }
 
 .product-txt p{
-   color: gray;
+   color: #a5e65a;
    font-size: 16px;
    margin-bottom: 15px;
 
@@ -311,13 +311,13 @@ display: none;
 
 .info-txt p{
    font-size: 18px;
-   color: gray;
+   color: #fdf2e8;
    margin-bottom: 50px;
 }
 .btn-2{
    display: inline-block;
    padding:15px 35px;
-   background-color: rgb(8, 8, 7);
+   background-color: #a5e65a;
    color: white;
    font-weight: 800;
    text-transform: uppercase;
@@ -326,12 +326,12 @@ display: none;
 }
 
 .btn-2:hover{
-   background-color: yellowgreen;
+   background-color: #a5e65a;
 }
 
 .horario{
    padding: 100px 0px;
-   background-color: black;
+   background-color: #191f20;
 
 }
 .horario h2{
@@ -348,12 +348,12 @@ display: none;
 
 }
 .txt{
-   color: white;
+   color: #fefefe;
 }
 
 .txt h4{
    font-size: 18px;
-   color: gray;
+   color: #191f20 ;
    margin-bottom: 30px;
 }
 .txt p{
@@ -390,7 +390,7 @@ display: none;
 }
 .pie-pagina{
    width: 100%;
-   background-color: rgb(0, 0, 0);
+   background-color: #1B2727;
   }
   .pie-pagina .group-1{
    width: 100%;
@@ -434,10 +434,10 @@ display: none;
 
   }
   .pie-pagina .group-1 .red-socials a:hover{
-   color: yellowgreen;
+   color: #a5e65a;
   }
   .pie-pagina .grupo-2 {
-   background-color: rgb(8, 8, 8);
+   background-color: #a5e65a;
    padding: 15px 10px;
    text-align: center;
    color: white;
@@ -472,7 +472,7 @@ display: none;
       top: 100%;
       left: 0;
       right: 0;
-      background-color: black;
+      background-color: #000000;
       display: none;
    }
    .menu .navbar ul li{
