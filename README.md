@@ -10,3 +10,4 @@ la pagina web contiene:
 
 este es mi primer proyecto con el cual siento que logre un gran avance implementando una base de datos alojada en la nube,
 y distintas animaciones propias de una pagina web llamativa. Es un proyecto con el que queria lograr algo bueno y siento que lo logre.
+para funcionar correctamente la parte de los productos la pagina debe tener un hosting y para que funcione el sistema de agregar productos al dueño se le proporcionara una llave unica con la que podra ingresar por el momento funciona alojandola en un puerto de la terminal.
